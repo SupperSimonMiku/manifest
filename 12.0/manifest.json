@@ -1,6 +1,6 @@
 [
     {
-        "guid": "c83d86bb-a1e0-4c35-a113-e2101cf4ee6b",
+        "guid": "cd1a4f80-4626-4210-a206-75f4d805a793",
         "name": "Intro Skipper",
         "overview": "Automatically detect and skip intros in television episodes",
         "description": "Analyzes the audio of television episodes and detects introduction sequences.",
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
+        "guid": "7b74e3ba-9d0a-4b52-a717-aa001b56e684",
         "name": "Segment Editor",
         "overview": "Segment editing UI embedded as a plugin page",
         "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin",
