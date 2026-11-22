@@ -1,6 +1,6 @@
 [
     {
-        "guid": "cd1a4f80-4626-4210-a206-75f4d805a793",
+        "guid": "c83d86bb-a1e0-4c35-a113-e2101cf4ee6b",
         "name": "Intro Skipper",
         "overview": "Automatically detect and skip intros in television episodes",
         "description": "Analyzes the audio of television episodes and detects introduction sequences.",
@@ -10,10 +10,11 @@
         "versions": [
             {
                 "version": "12.0.7.0",
-                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/12.0%2Fv12.0.7.0)\n",
-                "targetAbi": "12.4.0.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/12.0/v12.0.7.0)\n",
+                "targetAbi": "12.1.0.0",
                 "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/12.0/v12.0.7.0/intro-skipper-v12.0.7.0.zip",
-                "timestamp": "2026-11-21T11:00:00Z"
+                "checksum": "REPLACE_WITH_MD5",
+                "timestamp": "2026-11-21T19:00:00Z"
             },
             {
                 "version": "12.0.6.0",
@@ -66,7 +67,7 @@
         ]
     },
     {
-        "guid": "7b74e3ba-9d0a-4b52-a717-aa001b56e684",
+        "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
         "name": "Segment Editor",
         "overview": "Segment editing UI embedded as a plugin page",
         "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin",
@@ -94,3 +95,157 @@
                 "version": "12.0.19.0",
                 "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
                 "targetAbi": "12.4.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.19.0/segment-editor-plugin-v12.0.19.0.zip",
+                "checksum": "e22e879cd1833088b96c818aceb1930b",
+                "timestamp": "2026-10-27T09:49:26Z"
+            },
+            {
+                "version": "12.0.18.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.18.0/segment-editor-plugin-v12.0.18.0.zip",
+                "checksum": "eaf7a37da8a285dbd1a96b4803ac0647",
+                "timestamp": "2026-10-22T09:25:26Z"
+            },
+            {
+                "version": "12.0.17.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.17.0/segment-editor-plugin-v12.0.17.0.zip",
+                "checksum": "334e56c3f51677e91ce848b87ea07f8f",
+                "timestamp": "2026-10-09T11:20:32Z"
+            }
+        ]
+    },
+    {
+        "guid": "6B0E323A-4AEE-4B10-813F-1E060488AE90",
+        "name": "EDL Creator",
+        "overview": "Create .edl files from Media Segments",
+        "description": "These files can be used by Kodi and other players to skip content like commercials and are stored next to your media. Therefore you need write access.",
+        "owner": "Intro Skipper (forked from Endrl)",
+        "category": "MoviesAndShows",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/manifest@a434e00edba70493794e25917cc8d3326d5a85c6/images/jellyfin-plugin-edl/logo.png",
+        "versions": []
+    },
+    {
+        "guid": "e22fb8f5-bc98-4f76-9be4-87de302a97ea",
+        "name": "Chapter Creator",
+        "overview": "Automatically convert Jellyfin media segments into Matroska chapter XML files for enhanced media navigation",
+        "description": "This plugin converts existing media segments (like Intros and Outros) into standardized Matroska chapter XML files",
+        "owner": "Intro Skipper",
+        "category": "MoviesAndShows",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/manifest@a434e00edba70493794e25917cc8d3326d5a85c6/images/jellyfin-plugin-ms-chapter/logo.png",
+        "versions": [
+            {
+                "version": "0.6.4.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/blob/master/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.6.4.0/ChapterCreator-0.6.4.0.zip",
+                "checksum": "28156008fb61d8705e9d2fd536b1e3f6",
+                "timestamp": "2026-10-19T16:28:18Z"
+            },
+            {
+                "version": "0.6.3.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/blob/master/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.6.3.0/ChapterCreator-0.6.3.0.zip",
+                "checksum": "051deb4907761ce06b956701657180c5",
+                "timestamp": "2026-10-16T00:28:07Z"
+            },
+            {
+                "version": "0.6.2.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/blob/master/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.6.2.0/ChapterCreator-0.6.2.0.zip",
+                "checksum": "8a9febe8ee8582307094a5f2f8be51ce",
+                "timestamp": "2026-10-13T00:04:36Z"
+            },
+            {
+                "version": "0.6.1.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/blob/master/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.6.1.0/ChapterCreator-0.6.1.0.zip",
+                "checksum": "e42ce5f999eb711bdbd56677e760e0dc",
+                "timestamp": "2026-07-10T11:28:07Z"
+            }
+        ]
+    },
+    {
+        "guid": "b2a63e62-0ac5-4575-9ad2-2c7534ccb83d",
+        "name": "SkipMe.db",
+        "overview": "Retrieves crowd-sourced segment timestamps from the SkipMe.db API",
+        "description": "Retrieves a database of crowd-sourced timestamps from the SkipMe.db API and supplies them to Jellyfin as a segment provider",
+        "owner": "Intro Skipper",
+        "category": "MoviesAndShows",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/skipme.db-plugin@master/images/logo.png",
+        "versions": [
+            {
+                "version": "0.2.6.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/skipme.db-plugin/blob/main/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/skipme.db-plugin/releases/download/v0.2.6.0/SkipMe.db-plugin-v0.2.6.0.zip",
+                "checksum": "39c650ea017881d7036a30ac2256af17",
+                "timestamp": "2026-10-14T13:29:18Z"
+            },
+            {
+                "version": "0.2.5.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/skipme.db-plugin/blob/main/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/skipme.db-plugin/releases/download/v0.2.5.0/SkipMe.db-plugin-v0.2.5.0.zip",
+                "checksum": "db3280e81067386f8c3c6b63bf0bdf63",
+                "timestamp": "2026-09-20T01:17:11Z"
+            },
+            {
+                "version": "0.2.4.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/skipme.db-plugin/blob/main/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/skipme.db-plugin/releases/download/v0.2.4.0/SkipMe.db-plugin-v0.2.4.0.zip",
+                "checksum": "48e6863229505013d42495e124db4701",
+                "timestamp": "2026-09-19T09:42:01Z"
+            },
+            {
+                "version": "0.2.3.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/skipme.db-plugin/blob/main/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/skipme.db-plugin/releases/download/v0.2.3.0/SkipMe.db-plugin-v0.2.3.0.zip",
+                "checksum": "b84f68dab00d50c1e2217e9ee25bbe68",
+                "timestamp": "2026-09-19T02:16:33Z"
+            },
+            {
+                "version": "0.2.2.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/skipme.db-plugin/blob/main/CHANGELOG.md)",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/skipme.db-plugin/releases/download/v0.2.2.0/SkipMe.db-plugin-v0.2.2.0.zip",
+                "checksum": "8254d6546096fcff616db62a38c4ce88",
+                "timestamp": "2026-09-19T01:00:09Z"
+            }
+        ]
+    },
+    {
+        "guid": "997a526b-ac90-4198-8353-450a9f74f4d5",
+        "name": "Runtime Trim",
+        "overview": "Ends playback when the video ends, even if an audio track runs longer",
+        "description": "Some releases mux an audio track that runs past the end of the video, so playback continues on a frozen frame until the longest track ends. Runtime Trim sets the runtime to where the video stream ends.",
+        "owner": "Intro Skipper",
+        "category": "General",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/intro-skipper/jellyfin-plugin-runtime-trim@main/images/logo.png",
+        "versions": [
+            {
+                "version": "0.1.1.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-runtime-trim/releases)",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-runtime-trim/releases/download/v0.1.1.0/runtime-trim-v0.1.1.0.zip",
+                "checksum": "b8e6d7a4c9899039c4ea45d227fbddc5",
+                "timestamp": "2026-10-28T16:27:34Z"
+            },
+            {
+                "version": "0.1.0.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-runtime-trim/releases)",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-runtime-trim/releases/download/v0.1.0.0/runtime-trim-v0.1.0.0.zip",
+                "checksum": "a35bf2760cc3ad8197400e32b77b0cb0",
+                "timestamp": "2026-10-13T13:59:36Z"
+            }
+        ]
+    }
+]
